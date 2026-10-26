@@ -1,0 +1,23 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>أدوات الدورة</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600&family=Readex+Pro:wght@600;700&display=swap">
+<style>
+:root{--bg:#eef0ec;--card:#fff;--ink:#111417;--muted:#5b6066;--accent:#2160b8;--line:#e2e3de}
+@media (prefers-color-scheme:dark){:root{--bg:#0d0e10;--card:#1a1b1d;--ink:#f0efec;--muted:#a9a8a2;--accent:#5598e7;--line:#2c2d30;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:'IBM Plex Sans Arabic',Tahoma,sans-serif;display:grid;place-items:center;padding:32px max(16px,env(safe-area-inset-left,0px))}
+main{width:min(760px,100%);display:grid;gap:24px;text-align:center}
+h1{font-family:'Readex Pro',sans-serif;font-size:clamp(30px,5vw,44px);margin:0}
+p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;text-align:right}
+a.c{display:grid;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;color:inherit;text-decoration:none;transition:border-color .2s}
+a.c:hover,a.c:focus-visible{border-color:var(--accent);outline:none}
+a.c b{font-family:'Readex Pro',sans-serif;font-size:20px;color:var(--accent)}
+</style></head><body><main>
+<h1>أدوات الدورة</h1>
+<p>المنظومة الذكية لمراكز التدريب</p>
+<div class="grid">
+<a class="c" href="dashboard/"><b>لوحة القرار</b><span>ارفع ملف Excel، فيتحول إلى لوحة مؤشرات ترتّبها، ثم تحمّلها PDF.</span></a>
+<a class="c" href="prompts/"><b>برومتات اليوم الثالث</b><span>البرومتات بترتيب الجلسة: فكرة كل برومت، ثم نصّه بضغطة.</span></a>
+</div>
+</main></body></html>
